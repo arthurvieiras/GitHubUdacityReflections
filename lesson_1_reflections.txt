@@ -1,0 +1,26 @@
+1.
+    The diff tool show the lines that changed so you don't have to look for
+    the differences by yourself. That makes easier to find mistakes.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long therm?
+
+    You could view the differences and anylise your how better you got. Or if you 
+    have to move back to some point where your app wasn't that specialized you can 
+    do it fast.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    The pros are: you can have only meaningful commits. The cons: you can forget to commit
+    properly.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think they have different purposes, while Git was made for developers, and for them there
+    is the need of keep tracking of different files as they work in projects, Google Docs was
+    made to held documents, witch are generally all alone meaningful.
+
+5. How might using version control make you more confident to make changes that could break something?
+
+    With Git you don't have to worry about it (if you have a stable version, of course) 
+    as you can turn back to the working version with just some comands.
