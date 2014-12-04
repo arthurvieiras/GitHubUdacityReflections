@@ -3,3 +3,11 @@
     You start to watch for modifications in that directory and you start having the
     capability to make save-points (commits). You need to do it because without it
     you can't make your versioning.
+
+2. How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    It differs from both working directory and repository because you can put and
+    remove files from there without removing them physically from your directory.
+    Therefore if there is a change in your repository but you feel like it shouldn't
+    be committed at that time, you simply don't push it to the staging area.
