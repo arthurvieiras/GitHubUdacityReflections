@@ -1,13 +1,23 @@
 1. What happens when you initialize a repository? Why do you need to do it?
 
-    You start to watch for modifications in that directory and you start having the
-    capability to make save-points (commits). You need to do it because without it
-    you can't make your versioning.
+    You start to watch for modifications in that directory and you start having the capability to make save-points (commits). You need to do it because without it you can't make your versioning.
 
-2. How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-    It differs from both working directory and repository because you can put and
-    remove files from there without removing them physically from your directory.
-    Therefore if there is a change in your repository but you feel like it shouldn't
-    be committed at that time, you simply don't push it to the staging area.
+    It differs from both working directory and repository because you can put and remove files from there without removing them physically from your directory. Therefore if there is a change in your repository but you feel like it shouldn't be committed at that time, you simply don't push it to the staging area.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+    You can use to stage only what makes sense to commit at that time, making it always a logical commit.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Branches are helpfull when you have to make a new feature or some big change that affects many aspects of the hole project.
+
+5. How do the diagrams help you visualize the branch structure?
+
+    It can clearly show us where do the commits come from and so from witch branch it comes.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The result is a new history line of both branches mixed into one. In the diagram we represent it as a comming together, much alike to what we really do.
